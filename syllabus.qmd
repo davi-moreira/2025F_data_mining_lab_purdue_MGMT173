@@ -1,0 +1,158 @@
+---
+title: "Syllabus"
+author: "Davi Moreira"
+#title: "Syllabus: MGMT 17300: Data Mining Lab"
+# subtitle: "Mitch. Daniels School of Business, Purdue University"
+# date-modified: "last-modified"
+# date: "2025-08-01"
+# date-format: "MMM D, YYYY"
+#listing:
+# - id: schedule
+#   contents:
+#      - topics/topic-*.qmd
+#    type: table
+#    fields: [title, subtitle, date]
+#    field-display-names:
+#      title: "Topic"
+#      description: "Dates"
+#      subtitle: "Topics"
+#    date-format: "MMMM DD, YYYY"
+#    sort: [filename]
+#    sort-ui: false
+#    filter-ui: false
+---
+
+<br>
+<center>
+_IMPORTANT_
+
+_This document does not replace the official syllabus in the course brightspace page_
+
+</center>
+<br>
+
+## Course Description and Objectives
+
+This course emphasizes exposure to diverse data mining methods, with a particular focus on experimental designs and predictive modeling techniques. It provides a comprehensive understanding of the various roles that data and analytics disciplines play in business decision-making. Through the analysis of numerous synthetic, business-focused datasets, students will engage in a hands-on experiential learning process that highlights the practical applications of these methods. This approach underscores the interconnected nature of experimental and predictive techniques within the broader analytics landscape, enabling students to develop a nuanced appreciation of data-driven decision-making. By the end of the course, students will be better equipped to thoughtfully select advanced analytics courses and strategically navigate their paths toward specialized or advanced training in fields aligned with data analytics.
+
+**Course Website**: [https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/](https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/){target="_blank"}
+
+## Instructor
+
+### Instructor: [Professor Davi Moreira](https://davi-moreira.github.io)
+
+-   Office: Young Hall 1007
+-   Email: [dmoreira@purdue.edu](mailto:dmoreira@purdue.edu)
+-   Virtual Office hours: _Zoom link in your Course Brightspace Page_
+-   Individual Appointments: _Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment._
+
+## Learning Outcomes
+
+By the conclusion of this course, students will be able to:
+
+1. **Understand the Role of Data Analytics Disciplines:**  
+   Develop a comprehensive understanding of the interconnected roles of data management, experimental design, and predictive modeling in supporting contemporary data-driven decision-making.
+
+2. **Recognize the Importance of Structured Data and Infrastructure:**  
+   Acknowledge the critical role of structured business data and enterprise data management/analytics infrastructure in enabling efficient and effective data-driven business strategies.
+
+3. **Apply Data Mining Methods:**  
+   Gain foundational knowledge and hands-on experience in using diverse data mining techniques, with a focus on experimental designs and predictive modeling, to solve business problems.
+
+4. **Use Analytics Tools Proficiently:**  
+   Utilize powerful analytics tools (such as R and other programming languages) to analyze synthetic business-focused datasets and apply data mining methods in practical contexts.
+
+5. **Navigate Advanced Analytics Pathways:**  
+   Make informed decisions about advanced coursework and specialization in analytics by leveraging a nuanced appreciation of the experimental and predictive methods introduced in the course.
+
+6. **Bridge Theory and Practice:**  
+   Apply theoretical insights to practical scenarios through experiential learning with synthetic datasets, fostering skills that support informed decision-making in real-world business environments.
+
+## Course Materials
+
+**Textbooks (for reference):**  
+1. *R for Data Science 2e*, by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund  
+   - [Online version here](https://r4ds.hadley.nz/)  
+2. James, G., Witten, D., Hastie, T., & Tibshirani, R. (2023). *An Introduction to Statistical Learning with Applications in R/Python*. Springer. [Download here](https://www.statlearning.com/)
+
+**Computing (Required):**  
+- A laptop or desktop with internet access and the capability to install and run [R](https://cran.r-project.org/) and [RStudio](https://posit.co/downloads/).
+
+**Software (Required):**  
+- The R language and RStudio will be used in this course. For details, see [R](https://cran.r-project.org/) and [RStudio](https://www.rstudio.com/).
+
+### Course Infra-structure
+
+**Brightspace:** The Course Brightspace Page <https://purdue.brightspace.com/> should be checked on a regular basis for announcements and course material.
+
+## Assessments
+
+As part of a university-wide initiative, the Business School has adopted an **Official Grading Policy** that caps the overall class GPA at 3.3. Final letter grades are determined by curving final percentages, subject to any extra-credit exceptions discussed in this syllabus. While you will see your final percentage in Brightspace, individual grade thresholds will not be disclosed before official submissions.
+
+| **Assessment**             | **Weight** |
+|----------------------------|-----------:|
+| Attendance/Participation   | 10%        |
+| Quizzes                    | 25%        |
+| Homework                   | 25%        |
+| Online Midterm Exams       | 20%        |
+| Final Project              | 20%        |
+
+### Attendance and Participation
+
+Attend class, participate in activities, and complete any participatory exercises. Random attendance checks will be used to measure involvement. According to Purdue regulations, students are expected to attend every class/lab meeting for which they are registered.
+
+### Quizzes
+
+Regular quizzes based on lecture material will be administered, with no drops. Due dates and details will be on Brightspace. Quizzes help reinforce content and maintain steady engagement.
+
+### Homework
+
+Homework assignments offer practical, hands-on exposure to data mining tasks. Expect multiple-choice questions requiring analysis of provided results. Deadlines will be posted in Brightspace. These assignments are crucial for building technical and analytical skills.
+
+### Online Midterm Exams
+
+Two midterm exams, administered online, incorporate the methods used in quizzes and homework but in a more comprehensive format. They are open-book and open-notes. Students have 60 minutes to complete multiple-choice questions that test both technical proficiency and conceptual understanding. The second midterm is not cumulative. Makeup exams are granted only for verifiable, exceptional circumstances (e.g., serious personal medical emergency, family death, NCAA conflict).
+
+### Final Project
+
+In groups, students will complete a practical data mining project, culminating in a team presentation submitted via Brightspace. The project provides an opportunity to apply course concepts to a real-world scenario, demonstrating analytical and problem-solving skills. Detailed guidelines will be provided according to the course schedule.
+
+### Grade Challenges
+
+Grades and solutions will be posted soon after each assignment deadline. Students have **7 calendar days** from the grade posting to submit any challenge (3 days for the final two quizzes and homework assignments). Challenges must be based on legitimate discrepancies regarding data mining principles or grading accuracy.
+
+1. **Review posted solutions** thoroughly.  
+2. If you suspect an error, email Dr. Moreira with:  
+   - Course name, section, and lecture day/time  
+   - Your name and Student ID  
+   - Assignment/Exam Title or Number  
+   - Specific deduction questioned  
+   - Clear rationale referencing solutions or rubrics  
+
+> *No grades will be discussed in-class. Please use office hours for clarifications. After the 7-day (or 3-day) window, grades are final.*
+
+
+## Course Policies and Additional Details
+
+### Extra Credit Opportunities
+
+- Check the Course Syllabus document on Brightspace for details.
+
+### AI Policy
+
+- You may use AI tools to support your learning (e.g., clarifying concepts, generating examples), but:  
+  1. **Do not** use AI for requesting solutions or exams.  
+  2. Practice refining prompts to get better AI outputs.  
+  3. Verify all AI-generated content for accuracy.  
+  4. Cite any AI usage in your documents.
+  
+### Additional Information
+
+Refer to Brightspace for deadlines, academic integrity policies, accommodations, CAPS information, and non-discrimination statements.
+
+### Subject to Change Policy 
+
+While we will endeavor to maintain the course schedule, the syllabus may be adjusted to accommodate the learning pace and needs of the class.
+
+## [Schedule](./schedule.qmd)
+

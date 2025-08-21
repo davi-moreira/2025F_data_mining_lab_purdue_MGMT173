@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html#course-description-and-objectives",
+    "href": "index.html#course-description-and-objectives",
+    "title": "MGMT 17300: Data Mining Lab",
+    "section": "Course Description and Objectives",
+    "text": "Course Description and Objectives\nThis course emphasizes exposure to diverse data mining methods, with a particular focus on experimental designs and predictive modeling techniques. It provides a comprehensive understanding of the roles that data and analytics disciplines play in business decision-making. Through the analysis of synthetic, business-focused datasets, students will engage in a hands-on experiential learning process that highlights the practical applications of these methods. This approach underscores the interconnected nature of experimental and predictive techniques within the broader analytics landscape, enabling students to develop a nuanced appreciation of data-driven decision-making. By the end of the course, students will be better equipped to thoughtfully select advanced analytics courses and strategically navigate their paths toward specialized or advanced training in fields aligned with data analytics.\nCourse Website: https://davi-moreira.github.io/2025F_data_mining_purdue_MGMT173/\n\nInstructor: Professor Davi Moreira\n\nEmail: dmoreira@purdue.edu\nVirtual Office hours - Zoom link in your Course Brightspace Page\nIndividual Appointments: Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-outcomes",
+    "href": "index.html#learning-outcomes",
+    "title": "MGMT 17300: Data Mining Lab",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the conclusion of this course, students will be able to:\n\nUnderstand the Role of Data Analytics Disciplines:\nDevelop a comprehensive understanding of the interconnected roles of data management, experimental design, and predictive modeling in supporting contemporary data-driven decision-making.\nRecognize the Importance of Structured Data and Infrastructure:\nAcknowledge the critical role of structured business data and enterprise data management/analytics infrastructure in enabling efficient and effective data-driven business strategies.\nApply Data Mining Methods:\nGain foundational knowledge and hands-on experience in using diverse data mining techniques, with a focus on experimental designs and predictive modeling, to solve business problems.\nUse Analytics Tools Proficiently:\nUtilize powerful analytics tools (such as R and other programming languages) to analyze synthetic business-focused datasets and apply data mining methods in practical contexts.\nNavigate Advanced Analytics Pathways:\nMake informed decisions about advanced coursework and specialization in analytics by leveraging a nuanced appreciation of the experimental and predictive methods introduced in the course.\nBridge Theory and Practice:\nApply theoretical insights to practical scenarios through experiential learning with synthetic datasets, fostering skills that support informed decision-making in real-world business environments.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#course-materials",
+    "href": "index.html#course-materials",
+    "title": "MGMT 17300: Data Mining Lab",
+    "section": "Course Materials",
+    "text": "Course Materials\nTextbooks (for reference):\n1. R for Data Science 2e, by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund\n- Online version here\n2. James, G., Witten, D., Hastie, T., & Tibshirani, R. (2023). An Introduction to Statistical Learning with Applications in R/Python. Springer. Download here\nComputing (Required):\n- A laptop or desktop with internet access and the capability to install and run R and RStudio.\nSoftware (Required):\n- The R language and RStudio will be used in this course. For details, see R and RStudio.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#course-infra-structure",
+    "href": "index.html#course-infra-structure",
+    "title": "MGMT 17300: Data Mining Lab",
+    "section": "Course Infra-structure",
+    "text": "Course Infra-structure\nBrightspace: The Course Brightspace Page https://purdue.brightspace.com/ should be checked on a regular basis for announcements and course material.",
+    "crumbs": [
+      "Home"
+    ]
+  }
+]

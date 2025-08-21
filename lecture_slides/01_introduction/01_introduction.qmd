@@ -110,28 +110,62 @@ knitr::include_graphics("figs/carnaval_olinda.jpg")
 
 <br>
 
--   It is your turn! - 5 minutes
+<center>
+**What do you expect to gain from this Data Mining Lab course?**
+</center>
 
 <br>
 
--   Present yourself to your left/right colleague and tell her/him what are the current two main passions in your life.
+-   It is your turn! - 10 minutes
+
+-   Present yourself to your left/right colleague and ask: 
+
+-   Collect her/his answer and submit your first Participation Assignment!
 
 # Course Overview and Logistics {background-color="#cfb991"}
 
 ## Course Overview and Logistics
 
--   **Materials**:
+::: {style="font-size: 80%;"}
 
-    -   Brightspace
+:::: {.columns}
+::: {.column width="50%"}
 
-    -   [Course Webpage](https://davi-moreira.github.io/2025S_data_mining_lab_purdue_MGMT173/){target="_blank"}
+- **Course Info**:
+  - Brightspace - Official.
+  - [Course Webpage - Supplementary.](https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/){target="_blank"}
 
--   [**Syllabus**](https://davi-moreira.github.io/2025S_data_mining_lab_purdue_MGMT173/){target="_blank"}
+- [**Syllabus**](https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/){target="_blank"}  
+  - **Class Times & Location:** check the course syllabus.  
+  - **Office Hours:** check the course syllabus for group and individual appointments.
 
-      - **Class Times & Location:**  check the course syllabus.
-      - **Office Hours:** check the course syllabus for group and individual appointments. 
+- [**Schedule and Materials**](https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/schedule.html){target="_blank"}:
+  - Podcast (before class)  
+  - Lecture Slides (before/during class)  
+  - Lecture Video (before/during class)  
+  - scripts/labs (during/after class)  
+  - Supplementary Material (after class)
 
--   [**Schedule**](https://davi-moreira.github.io/2025S_data_mining_lab_purdue_MGMT173/){target="_blank"}
+:::
+
+::: {.column width="50%"}
+
+- **Course Tracks**
+  - Standard Track  
+  - Poster Track (bonus)
+
+- **Assessments**
+  - Attendance  
+  - Participation  
+  - Quizzes  
+  - Homework  
+  - Midterm Exams
+  - Final Project  
+
+:::
+::::
+
+::: 
 
 <!---
 ## Course Objectives
@@ -379,10 +413,11 @@ Your **final course percentage** is calculated from the weighted percentages bel
 
 # Motivation {background-color="#cfb991"}
 
+<!---
 # What motivated you to enroll in the Data Mining Lab course? {background-color="#cfb991"}
+--->
 
-<br> <br>
-
+<!--- <br> <br> --->
 
 ## Motivation
 
@@ -777,6 +812,9 @@ Good project management lets you focus on the right kind of stress.
 
 ## Keeping Future-you happy
 
+<center>![](figs/michaeljfox-1.jpg){width="180"}![](figs/michaeljfox-2.jpg){width="200"}![](figs/michaeljfox-3.jpg){width="200"}</center>
+
+
 - It’s often tempting to set up a project assuming that you will be the only person working on it, e.g. as homework.
 - That’s almost never true.
 - Coauthors and collaborators happen to the best of us.
@@ -785,9 +823,7 @@ Good project management lets you focus on the right kind of stress.
 - Most importantly, they are who will enjoy the fruits of your data science labor, or have to fight back your chaos.
 - So, be kind to Future-you. Establish a good workflow. You'll thank yourself later.
 
-. . . 
 
-<center>![](figs/michaeljfox-1.jpg){width="180"}![](figs/michaeljfox-2.jpg){width="200"}![](figs/michaeljfox-3.jpg){width="200"}</center>
 
 ## Project setup
 

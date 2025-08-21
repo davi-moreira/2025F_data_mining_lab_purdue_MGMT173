@@ -62,7 +62,10 @@ By the conclusion of this course, students will be able to:
 - A laptop or desktop with internet access and the capability to install and run [R](https://cran.r-project.org/) and [RStudio](https://posit.co/downloads/).
 
 **Software (Required):**  
-- The R language and RStudio will be used in this course. For details, see [R](https://cran.r-project.org/) and [RStudio](https://www.rstudio.com/).
+
+- **R language and RStudio:** The R language and RStudio will be used in this course. For details, see [R](https://cran.r-project.org/){target="_blank"} and [RStudio](https://www.rstudio.com/){target="_blank"}.
+
+- [**Microsoft Copilot**](https://copilot.microsoft.com/){target="_blank"}: it is an AI-powered assistant designed to enhance productivity and streamline workflows across various applications and services. It utilizes large language models providing real-time, context-aware assistance for tasks such as generating code, analyzing data, managing projects, and communicating more efficiently.
 
 ## Course Infra-structure
 

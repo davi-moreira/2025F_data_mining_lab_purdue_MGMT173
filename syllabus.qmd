@@ -79,7 +79,10 @@ By the conclusion of this course, students will be able to:
 - A laptop or desktop with internet access and the capability to install and run [R](https://cran.r-project.org/) and [RStudio](https://posit.co/downloads/).
 
 **Software (Required):**  
-- The R language and RStudio will be used in this course. For details, see [R](https://cran.r-project.org/) and [RStudio](https://www.rstudio.com/).
+
+- **R language and RStudio:** The R language and RStudio will be used in this course. For details, see [R](https://cran.r-project.org/){target="_blank"} and [RStudio](https://www.rstudio.com/){target="_blank"}.
+
+- [**Microsoft Copilot**](https://copilot.microsoft.com/){target="_blank"}: it is an AI-powered assistant designed to enhance productivity and streamline workflows across various applications and services. It utilizes large language models providing real-time, context-aware assistance for tasks such as generating code, analyzing data, managing projects, and communicating more efficiently.
 
 ### Course Infra-structure
 
@@ -91,15 +94,20 @@ As part of a university-wide initiative, the Business School has adopted an **Of
 
 | **Assessment**             | **Weight** |
 |----------------------------|-----------:|
-| Attendance/Participation   | 10%        |
+| Attendance                 | 3%         |
+| Participation              | 7%         |
 | Quizzes                    | 25%        |
 | Homework                   | 25%        |
 | Online Midterm Exams       | 20%        |
 | Final Project              | 20%        |
 
-### Attendance and Participation
+### Attendance 
 
-Attend class, participate in activities, and complete any participatory exercises. Random attendance checks will be used to measure involvement. According to Purdue regulations, students are expected to attend every class/lab meeting for which they are registered.
+Attendance is essential for success in this course. If you do not attend class regularly, you are unlikely to succeed. According to the University regulations, “Scheduled courses allow students to avoid conflicts and reflect the University’s expectation that students should be present for every meeting of a class/laboratory for which they are registered.” Attendance will be recorded using iClicker, and these records will be reflected in your gradebook at the end of the semester. A minimum attendance rate of 85% is required to meet the expectations of this course.
+
+### Participation
+
+Participate and take participatory activities. Almost every class the instructor you will be required to take participatory activities. Your participation grade will be based on this record. The two lowest scores will be dropped.
 
 ### Quizzes
 
@@ -141,10 +149,11 @@ Grades and solutions will be posted soon after each assignment deadline. Student
 ### AI Policy
 
 - You may use AI tools to support your learning (e.g., clarifying concepts, generating examples), but:  
-  1. **Do not** use AI for requesting solutions or exams.  
-  2. Practice refining prompts to get better AI outputs.  
-  3. Verify all AI-generated content for accuracy.  
-  4. Cite any AI usage in your documents.
+  1. Only in this course, you are allowed to use AI tools during the exams
+  2. **Do not** use AI for requesting solutions.  
+  3. Practice refining prompts to get better AI outputs.  
+  4. Verify all AI-generated content for accuracy.  
+  5. Cite any AI usage in your documents.
   
 ### Additional Information
 

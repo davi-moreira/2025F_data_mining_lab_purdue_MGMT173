@@ -67,4 +67,4 @@ editor: visual
 | Week 15 | Final Project Presentation: No Office-Hours | . | . |
 | Week 15 | Final Project Presentation: No Office-Hours | . | . |
 :::
-* This material was generated with Google NotebookLM based on the slides I prepared for the Data Mining Lab course.
+\* This material was generated with Google NotebookLM based on the slides I prepared for the Data Mining Lab course.

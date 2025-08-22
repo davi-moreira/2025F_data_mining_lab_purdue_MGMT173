@@ -65,6 +65,6 @@ editor: visual
 | Week 13 | Final Project Preparation – in class | . | . |
 | Week 14 | Final Project Preparation – in class | . | . |
 | Week 15 | Final Project Presentation: No Office-Hours | . | . |
-| Week 15 | Final Project Presentation: No Office-Hours | . | . |
+| Week 16 | Final Project Presentation: No Office-Hours | . | . |
 :::
 \* This material was generated with Google NotebookLM based on the slides I prepared for the Data Mining Lab course.

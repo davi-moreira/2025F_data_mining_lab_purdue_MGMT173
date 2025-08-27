@@ -23,12 +23,15 @@ author: "Davi Moreira"
 ---
 
 <br>
-<center>
-_IMPORTANT_
 
-_This document does not replace the official syllabus in the course brightspace page_
+<center>
+
+*IMPORTANT*
+
+*This document does not replace the official syllabus in the course brightspace page*
 
 </center>
+
 <br>
 
 ## Course Description and Objectives
@@ -42,47 +45,47 @@ This course emphasizes exposure to diverse data mining methods, with a particula
 ### Instructor: [Professor Davi Moreira](https://davi-moreira.github.io)
 
 -   Office: Young Hall 1007
--   Email: [dmoreira@purdue.edu](mailto:dmoreira@purdue.edu)
--   Virtual Office hours: _Zoom link in your Course Brightspace Page_
--   Individual Appointments: _Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment._
+-   Email: [dmoreira\@purdue.edu](mailto:dmoreira@purdue.edu)
+-   Virtual Office hours: *Zoom link in your Course Brightspace Page*
+-   Individual Appointments: *Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment.*
 
 ## Learning Outcomes
 
 By the conclusion of this course, students will be able to:
 
-1. **Understand the Role of Data Analytics Disciplines:**  
-   Develop a comprehensive understanding of the interconnected roles of data management, experimental design, and predictive modeling in supporting contemporary data-driven decision-making.
+1.  **Understand the Role of Data Analytics Disciplines:**\
+    Develop a comprehensive understanding of the interconnected roles of data management, experimental design, and predictive modeling in supporting contemporary data-driven decision-making.
 
-2. **Recognize the Importance of Structured Data and Infrastructure:**  
-   Acknowledge the critical role of structured business data and enterprise data management/analytics infrastructure in enabling efficient and effective data-driven business strategies.
+2.  **Recognize the Importance of Structured Data and Infrastructure:**\
+    Acknowledge the critical role of structured business data and enterprise data management/analytics infrastructure in enabling efficient and effective data-driven business strategies.
 
-3. **Apply Data Mining Methods:**  
-   Gain foundational knowledge and hands-on experience in using diverse data mining techniques, with a focus on experimental designs and predictive modeling, to solve business problems.
+3.  **Apply Data Mining Methods:**\
+    Gain foundational knowledge and hands-on experience in using diverse data mining techniques, with a focus on experimental designs and predictive modeling, to solve business problems.
 
-4. **Use Analytics Tools Proficiently:**  
-   Utilize powerful analytics tools (such as R and other programming languages) to analyze synthetic business-focused datasets and apply data mining methods in practical contexts.
+4.  **Use Analytics Tools Proficiently:**\
+    Utilize powerful analytics tools (such as R and other programming languages) to analyze synthetic business-focused datasets and apply data mining methods in practical contexts.
 
-5. **Navigate Advanced Analytics Pathways:**  
-   Make informed decisions about advanced coursework and specialization in analytics by leveraging a nuanced appreciation of the experimental and predictive methods introduced in the course.
+5.  **Navigate Advanced Analytics Pathways:**\
+    Make informed decisions about advanced coursework and specialization in analytics by leveraging a nuanced appreciation of the experimental and predictive methods introduced in the course.
 
-6. **Bridge Theory and Practice:**  
-   Apply theoretical insights to practical scenarios through experiential learning with synthetic datasets, fostering skills that support informed decision-making in real-world business environments.
+6.  **Bridge Theory and Practice:**\
+    Apply theoretical insights to practical scenarios through experiential learning with synthetic datasets, fostering skills that support informed decision-making in real-world business environments.
 
 ## Course Materials
 
-**Textbooks (for reference):**  
-1. *R for Data Science 2e*, by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund  
-   - [Online version here](https://r4ds.hadley.nz/)  
+**Textbooks (for reference):**\
+1. *R for Data Science 2e*, by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund\
+- [Online version here](https://r4ds.hadley.nz/)\
 2. James, G., Witten, D., Hastie, T., & Tibshirani, R. (2023). *An Introduction to Statistical Learning with Applications in R/Python*. Springer. [Download here](https://www.statlearning.com/)
 
-**Computing (Required):**  
+**Computing (Required):**\
 - A laptop or desktop with internet access and the capability to install and run [R](https://cran.r-project.org/) and [RStudio](https://posit.co/downloads/).
 
-**Software (Required):**  
+**Software (Required):**
 
-- **R language and RStudio:** The R language and RStudio will be used in this course. For details, see [R](https://cran.r-project.org/){target="_blank"} and [RStudio](https://www.rstudio.com/){target="_blank"}.
+-   **R language and RStudio:** The R language and RStudio will be used in this course. For details, see [R](https://cran.r-project.org/){target="_blank"} and [RStudio](https://www.rstudio.com/){target="_blank"}.
 
-- [**Microsoft Copilot**](https://copilot.microsoft.com/){target="_blank"}: it is an AI-powered assistant designed to enhance productivity and streamline workflows across various applications and services. It utilizes large language models providing real-time, context-aware assistance for tasks such as generating code, analyzing data, managing projects, and communicating more efficiently.
+-   [**Microsoft Copilot**](https://copilot.microsoft.com/){target="_blank"}: it is an AI-powered assistant designed to enhance productivity and streamline workflows across various applications and services. It utilizes large language models providing real-time, context-aware assistance for tasks such as generating code, analyzing data, managing projects, and communicating more efficiently.
 
 ### Course Infra-structure
 
@@ -92,16 +95,16 @@ By the conclusion of this course, students will be able to:
 
 As part of a university-wide initiative, the Business School has adopted an **Official Grading Policy** that caps the overall class GPA at 3.3. Final letter grades are determined by curving final percentages, subject to any extra-credit exceptions discussed in this syllabus. While you will see your final percentage in Brightspace, individual grade thresholds will not be disclosed before official submissions.
 
-| **Assessment**             | **Weight** |
-|----------------------------|-----------:|
-| Attendance                 | 3%         |
-| Participation              | 7%         |
-| Quizzes                    | 25%        |
-| Homework                   | 25%        |
-| Online Midterm Exams       | 20%        |
-| Final Project              | 20%        |
+| **Assessment**       | **Weight** |
+|----------------------|-----------:|
+| Attendance           |         3% |
+| Participation        |         7% |
+| Quizzes              |        25% |
+| Homework             |        25% |
+| Online Midterm Exams |        20% |
+| Final Project        |        20% |
 
-### Attendance 
+### Attendance
 
 Attendance is essential for success in this course. If you do not attend class regularly, you are unlikely to succeed. According to the University regulations, “Scheduled courses allow students to avoid conflicts and reflect the University’s expectation that students should be present for every meeting of a class/laboratory for which they are registered.” Attendance will be recorded using iClicker, and these records will be reflected in your gradebook at the end of the semester. A minimum attendance rate of 85% is required to meet the expectations of this course.
 
@@ -129,39 +132,37 @@ In groups, students will complete a practical data mining project, culminating i
 
 Grades and solutions will be posted soon after each assignment deadline. Students have **7 calendar days** from the grade posting to submit any challenge (3 days for the final two quizzes and homework assignments). Challenges must be based on legitimate discrepancies regarding data mining principles or grading accuracy.
 
-1. **Review posted solutions** thoroughly.  
-2. If you suspect an error, email Dr. Moreira with:  
-   - Course name, section, and lecture day/time  
-   - Your name and Student ID  
-   - Assignment/Exam Title or Number  
-   - Specific deduction questioned  
-   - Clear rationale referencing solutions or rubrics  
+1.  **Review posted solutions** thoroughly.\
+2.  If you suspect an error, email Dr. Moreira with:
+    -   Course name, section, and lecture day/time\
+    -   Your name and Student ID\
+    -   Assignment/Exam Title or Number\
+    -   Specific deduction questioned\
+    -   Clear rationale referencing solutions or rubrics
 
 > *No grades will be discussed in-class. Please use office hours for clarifications. After the 7-day (or 3-day) window, grades are final.*
-
 
 ## Course Policies and Additional Details
 
 ### Extra Credit Opportunities
 
-- Check the Course Syllabus document on Brightspace for details.
+-   Check the Course Syllabus document on Brightspace for details.
 
 ### AI Policy
 
-- You may use AI tools to support your learning (e.g., clarifying concepts, generating examples), but:  
-  1. Only in this course, you are allowed to use AI tools during the exams
-  2. **Do not** use AI for requesting solutions.  
-  3. Practice refining prompts to get better AI outputs.  
-  4. Verify all AI-generated content for accuracy.  
-  5. Cite any AI usage in your documents.
-  
+-   You may use AI tools to support your learning (e.g., clarifying concepts, generating examples), but:
+    1.  Only in this course, you are allowed to use AI tools during the exams
+    2.  **Do not** use AI for requesting solutions.\
+    3.  Practice refining prompts to get better AI outputs.\
+    4.  Verify all AI-generated content for accuracy.\
+    5.  Cite any AI usage in your documents.
+
 ### Additional Information
 
 Refer to Brightspace for deadlines, academic integrity policies, accommodations, CAPS information, and non-discrimination statements.
 
-### Subject to Change Policy 
+### Subject to Change Policy
 
 While we will endeavor to maintain the course schedule, the syllabus may be adjusted to accommodate the learning pace and needs of the class.
 
 ## [Schedule](./schedule.qmd)
-

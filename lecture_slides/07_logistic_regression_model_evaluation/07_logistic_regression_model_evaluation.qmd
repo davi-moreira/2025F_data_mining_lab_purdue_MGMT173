@@ -1,6 +1,6 @@
 ---
 title: "<span style = 'font-size: 100%;'> MGMT 17300: Data Mining Lab </span>"
-subtitle: "<span style = 'font-size: 150%;'>Model Evaluation with Logistic Regression</span>"
+subtitle: "<span style = 'font-size: 150%;'>Logistic Regression and Model Evaluation </span>"
 author: "Professor: Davi Moreira"
 # date: "2024-08-01"
 date-format: "MMMM DD, YYYY"

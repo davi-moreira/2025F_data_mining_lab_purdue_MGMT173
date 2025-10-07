@@ -1422,24 +1422,24 @@ theme(legend.position = "none")
 # 
 
 
-# Summary {background-color="#cfb991"}
-
-## Summary
-
-:::: nonincremental
-::: {style="font-size: 99%;"}
-Main Takeaways from this lecture:
-
--   **Correlation vs. Causation**: Correlation does not imply causation.
-
--   **Simple vs. Multiple Regression**: Multiple regression offers better insight by controlling for additional variables.
-
--   **Model Assumptions**: Meeting assumptions (linearity, normality, etc.) is essential for reliable inference and prediction.
-
--   **Supervised vs. Unsupervised Learning**: Supervised uses labeled data for prediction; unsupervised finds patterns in unlabeled data.
-
--   **Business Relevance**: Regression models help forecast key metrics (e.g., sales) and guide strategic decisions (e.g., advertising spend, product enhancements).
-:::
-::::
-
-# Thank you! {background-color="#cfb991"}
+# # Summary {background-color="#cfb991"}
+# 
+# ## Summary
+# 
+# :::: nonincremental
+# ::: {style="font-size: 99%;"}
+# Main Takeaways from this lecture:
+# 
+# -   **Correlation vs. Causation**: Correlation does not imply causation.
+# 
+# -   **Simple vs. Multiple Regression**: Multiple regression offers better insight by controlling for additional variables.
+# 
+# -   **Model Assumptions**: Meeting assumptions (linearity, normality, etc.) is essential for reliable inference and prediction.
+# 
+# -   **Supervised vs. Unsupervised Learning**: Supervised uses labeled data for prediction; unsupervised finds patterns in unlabeled data.
+# 
+# -   **Business Relevance**: Regression models help forecast key metrics (e.g., sales) and guide strategic decisions (e.g., advertising spend, product enhancements).
+# :::
+# ::::
+# 
+# # Thank you! {background-color="#cfb991"}

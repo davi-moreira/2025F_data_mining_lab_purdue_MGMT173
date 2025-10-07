@@ -2,3 +2,9 @@ ggplot2
 ggpubr
 GGally
 Metrics
+dplyr
+purrr
+rsample
+yardstick
+tidyr
+kableExtra

@@ -24,7 +24,6 @@
 # url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 # ---
 # 
-# 
 # ## Overview
 # 
 # :::::: nonincremental
@@ -179,7 +178,7 @@
 # ## Creating a Simulated Tech Dataset
 # 
 # ```{r echo=T, eval=T, message=FALSE, warning=FALSE,  cache=TRUE}
-# 1. Set the seed for reproducibility to ensure consistent results
+# # 1. Set the seed for reproducibility to ensure consistent results
 set.seed(123)
 
 # 2. Define the sample size, representing monthly observations for a year or more
@@ -187,7 +186,7 @@ n <- 500
 
 # 3. Generate synthetic predictors
 # Simulate advertising spend (normally distributed around a mean of 50k USD with 10k variability)
-adv_spend <- rnorm(n, mean = 50, sd = 10)
+adv_spend <- rnorm(n, mean = 50, sd = 10)  
 
 # Simulate product complexity scores (uniformly distributed between 1 and 10)
 prod_complex <- runif(n, min = 1, max = 10)
@@ -237,8 +236,8 @@ purchase_freq = purchase_freq, # Purchase frequency
 sales = sales               # Monthly sales
 )
 
-# Preview the first few rows of the dataset
-# head(my_tech_data)
+# # Preview the first few rows of the dataset
+# # head(my_tech_data)
 # ```
 # 
 # # Exploratory Data Analysis (EDA) {background-color="#cfb991"}
@@ -267,10 +266,10 @@ cor_adv <- cor(my_tech_data$adv_spend, my_tech_data$sales)
 
 plot_adv <- ggplot(my_tech_data, aes(x = adv_spend, y = sales)) +
 geom_point(color = "blue", alpha = 0.6) +
-annotate("text", x = max(my_tech_data$adv_spend) * 0.95, y = min(my_tech_data$sales) * 1.1,
+annotate("text", x = max(my_tech_data$adv_spend) * 0.95, y = min(my_tech_data$sales) * 1.1, 
 label = paste("r:", round(cor_adv, 2)), size = 5, color = "black") +
-labs(title = "Sales vs. Advertising Spend",
-x = "Advertising Spend (in $1000)",
+labs(title = "Sales vs. Advertising Spend", 
+x = "Advertising Spend (in $1000)", 
 y = "Monthly Sales (in $1000)") +
 theme_minimal()
 
@@ -311,10 +310,10 @@ cor_complex <- cor(my_tech_data$prod_complex, my_tech_data$sales)
 
 plot_complex <- ggplot(my_tech_data, aes(x = prod_complex, y = sales)) +
 geom_point(color = "darkgreen", alpha = 0.6) +
-annotate("text", x = max(my_tech_data$prod_complex) * 0.85, y = min(my_tech_data$sales) * 1.25,
+annotate("text", x = max(my_tech_data$prod_complex) * 0.85, y = min(my_tech_data$sales) * 1.25, 
 label = paste("r:", round(cor_complex, 2)), size = 5, color = "black") +
-labs(title = "Sales vs. Product Complexity",
-x = "Product Complexity",
+labs(title = "Sales vs. Product Complexity", 
+x = "Product Complexity", 
 y = "Monthly Sales (in $1000)") +
 theme_minimal()
 
@@ -355,10 +354,10 @@ cor_support <- cor(my_tech_data$support_rating, my_tech_data$sales)
 
 plot_support <- ggplot(my_tech_data, aes(x = support_rating, y = sales)) +
 geom_point(color = "purple", alpha = 0.6) +
-annotate("text", x = max(my_tech_data$support_rating) * 0.83, y = min(my_tech_data$sales) * 1.25,
+annotate("text", x = max(my_tech_data$support_rating) * 0.83, y = min(my_tech_data$sales) * 1.25, 
 label = paste("r:", round(cor_support, 2)), size = 5, color = "black") +
-labs(title = "Sales vs. Customer Support Rating",
-x = "Customer Support Rating",
+labs(title = "Sales vs. Customer Support Rating", 
+x = "Customer Support Rating", 
 y = "Monthly Sales (in $1000)") +
 theme_minimal()
 
@@ -397,11 +396,11 @@ plot_support
 # ```{r echo=F, eval=T, message=FALSE, warning=FALSE,  cache=TRUE, fig.align='center'}
 library(GGally)
 
-ggcorr(my_tech_data,
-method = c("pairwise", "pearson"),
-label = TRUE,
-label_round = 2,
-label_alpha = TRUE,
+ggcorr(my_tech_data, 
+method = c("pairwise", "pearson"), 
+label = TRUE, 
+label_round = 2, 
+label_alpha = TRUE, 
 name = "Correlation")
 # ```
 # :::
@@ -482,7 +481,7 @@ name = "Correlation")
 # This model explores how variations in advertising spend influence sales. The primary goal is to quantify the relationship and determine whether advertising is a significant predictor of sales.
 # 
 # ```{r echo=T, eval=T, results='hide', message=FALSE, warning=FALSE,  cache=TRUE}
-# Fit a simple linear regression model
+# # Fit a simple linear regression model
 fit_single <- lm(sales ~ adv_spend, data = my_tech_data)
 
 # Display summary of the model
@@ -503,9 +502,9 @@ summary(fit_single)
 # ::::
 # ::::::
 # :::::::
-# 
-# ## Interpreting the Model Output
-# 
+
+## Interpreting the Model Output
+
 # ::: {style="font-size: 70%;"}
 # 1.  **Residuals**:
 # -   Measure the difference between the actual and predicted values.
@@ -520,7 +519,7 @@ summary(fit_single)
 # -   Measures the average amount by which the predictions differ from the actual values.
 # -   Lower RSE values indicate better model fit.
 # 5.  **R-squared and Adjusted R-squared**:
-# -   **R-squared**: 73.66% of the variability in sales is explained by advertising spend.
+# -   **R-squared**: Percentage (%) of the variability in sales is explained by advertising spend.
 # -   **Adjusted R-squared** accounts for the number of predictors and penalizes overfitting.
 # 6.  **F-statistic**:
 # -   Tests the overall significance of the model.
@@ -569,7 +568,7 @@ library(ggplot2)
 
 # Residuals vs. Fitted Plot
 plot_residuals <- ggplot(data = as.data.frame(cbind(fitted = fitted(fit_single), residuals = residuals(fit_single))),
-aes(x = fitted, y = residuals)) +
+             aes(x = fitted, y = residuals)) +
 geom_point(alpha = 0.6) +
 geom_smooth(method = "loess", se = FALSE, color = "blue") +
 geom_hline(yintercept = 0, linetype = "dashed", color = "gray") +
@@ -617,9 +616,9 @@ plot_residuals
 library(ggplot2)
 
 # Normal Q-Q Plot
-qq_plot <- ggplot(data = as.data.frame(cbind(theoretical = qqnorm(residuals(fit_single), plot.it = FALSE)$x,
-residuals = residuals(fit_single))),
-aes(sample = residuals)) +
+qq_plot <- ggplot(data = as.data.frame(cbind(theoretical = qqnorm(residuals(fit_single), plot.it = FALSE)$x, 
+                                residuals = residuals(fit_single))), 
+      aes(sample = residuals)) +
 geom_qq() +
 geom_qq_line(color = "blue", linetype = "dashed") +
 labs(title = "Normal Q-Q",
@@ -664,9 +663,9 @@ qq_plot
 library(ggplot2)
 
 # Scale-Location Plot
-scale_location_plot <- ggplot(data = as.data.frame(cbind(fitted = fitted(fit_single),
-std_residuals = sqrt(abs(rstandard(fit_single))))),
-aes(x = fitted, y = std_residuals)) +
+scale_location_plot <- ggplot(data = as.data.frame(cbind(fitted = fitted(fit_single), 
+                                             std_residuals = sqrt(abs(rstandard(fit_single))))), 
+                  aes(x = fitted, y = std_residuals)) +
 geom_point(alpha = 0.6) +
 geom_smooth(method = "loess", se = FALSE, color = "blue") +
 labs(title = "Scale-Location",
@@ -707,11 +706,11 @@ scale_location_plot
 library(ggplot2)
 
 # Cook's Distance Plot
-cooks_plot <- ggplot(data = as.data.frame(cbind(obs = 1:length(cooks.distance(fit_single)),
-cooks = cooks.distance(fit_single))),
-aes(x = obs, y = cooks)) +
+cooks_plot <- ggplot(data = as.data.frame(cbind(obs = 1:length(cooks.distance(fit_single)), 
+                                    cooks = cooks.distance(fit_single))), 
+         aes(x = obs, y = cooks)) +
 geom_bar(stat = "identity", alpha = 0.6) +
-geom_text(aes(label = ifelse(cooks > 4/length(my_tech_data$sales), as.character(obs), "")),
+geom_text(aes(label = ifelse(cooks > 4/length(my_tech_data$sales), as.character(obs), "")), 
 hjust = -0.1, vjust = 0.5) +
 labs(title = "Cook's Distance",
 x = "Obs. Number",
@@ -924,9 +923,9 @@ cooks_plot
 # <br>
 # 
 # ```{r echo=T, eval=T, results='hide', message=FALSE, warning=FALSE,  cache=TRUE}
-# Fit a multiple linear regression model
-fit_multiple <- lm(sales ~ adv_spend + prod_complex + support_rating,
-data = my_tech_data)
+# # Fit a multiple linear regression model
+fit_multiple <- lm(sales ~ adv_spend + prod_complex + support_rating, 
+       data = my_tech_data)
 
 # Display summary of the model
 summary(fit_multiple)
@@ -942,9 +941,9 @@ summary(fit_multiple)
 # ::::
 # :::::::
 # ::::::::
-# 
-# ## Multiple Linear Regression Example
-# 
+
+## Multiple Linear Regression Example
+
 # :::::::: {style="font-size: 65%;"}
 # ::::::: columns
 # :::: {.column width="50%"}
@@ -957,10 +956,10 @@ summary(fit_multiple)
 # 
 # 2.**Coefficients**
 # 
-# -   **Intercept (198.88)**: Predicted baseline sales when all predictors are set to zero.
-# -   **Advertising Spend (0.93)**: For every \$1,000 increase in advertising spend, sales are predicted to increase by \$930, holding other variables constant.
-# -   **Product Complexity (-0.62)**: A one-unit increase in product complexity is associated with a \$620 decrease in sales, assuming other predictors are constant.
-# -   **Support Rating (1.27)**: A one-point increase in support rating correlates with a \$1,270 increase in sales, holding other predictors constant.
+# -   **Intercept**: Predicted baseline sales when all predictors are set to zero.
+# -   **Advertising Spend**: For every \$1,000 increase in advertising spend, sales are predicted to increase by \$0.93K, holding other variables constant.
+# -   **Product Complexity**: A one-unit increase in product complexity is associated with a \$620 decrease in sales, assuming other predictors are constant.
+# -   **Support Rating**: A one-point increase in support rating correlates with a \$1,630 increase in sales, holding other predictors constant.
 # 
 # 3.**Significance (Pr(\>\|t\|))**
 # 
@@ -978,8 +977,8 @@ summary(fit_multiple)
 # 
 # 5.**R-squared and Adjusted R-squared**
 # 
-# -   **R-squared (0.778)**: 77.8% of the variability in sales is explained by the predictors.
-# -   **Adjusted R-squared (0.7767)**: Accounts for the number of predictors, adjusting for potential overfitting.
+# -   **R-squared**: Percentage (%) of the variability in sales is explained by the predictors.
+# -   **Adjusted R-squared**: Percentage (%) of the variability in sales is explained by the predictors, but, now, it accounts for the number of predictors, adjusting for potential overfitting.
 # 
 # 6.**F-statistic**
 # 
@@ -994,8 +993,6 @@ summary(fit_multiple)
 # 
 # ## Comparing Single and Multiple Regression Models
 # 
-# <br>
-# 
 # ```{r echo=T, eval=T, results='hide', message=FALSE, warning=FALSE,  cache=TRUE}
 # Fit a simple linear regression model
 fit_single <- lm(sales ~ adv_spend, data = my_tech_data)
@@ -1008,9 +1005,7 @@ summary_multiple <- summary(fit_multiple)
 # 
 # ## Summary Comparison
 # 
-# <br>
-# 
-# ```{r echo=F, eval=T, results='hide', message=FALSE, warning=FALSE,  cache=TRUE}
+# ```{r echo=T, eval=T, results='hide', message=FALSE, warning=FALSE,  cache=TRUE}
 library(Metrics)
 
 # Calculate predictions for single and multiple regression models
@@ -1035,16 +1030,25 @@ MAE = c(mae_single, mae_multiple),
 RMSE = c(rmse_single, rmse_multiple)
 )
 
+# For convenience, pull out R-squared and RSE directly from model summaries:
+r2_single       <- summary_single$r.squared
+r2_multiple     <- summary_multiple$r.squared
+adj_r2_single   <- summary_single$adj.r.squared
+adj_r2_multiple <- summary_multiple$adj.r.squared
+rse_single      <- summary_single$sigma
+rse_multiple    <- summary_multiple$sigma
 # ```
 # 
+# ## Summary Comparison
+# 
 # ::: {style="font-size: 70%;"}
-# | Metric | Single Regression | Multiple Regression | Conclusion |
-# |-----------------|-----------------|-----------------|---------------------|
-# | **R-squared** | 0.7366 (73.66%) | 0.778 (77.8%) | Multiple regression explains more variability in sales. |
-# | **Adjusted R-squared** | 0.7361 | 0.7767 | Adjusted R-squared accounts for model complexity; multiple regression is better. |
-# | **Residual Standard Error (RSE)** | 5.39 | 4.96 | Lower RSE indicates multiple regression has more precise predictions. |
-# | **Mean Absolute Error (MAE)** | `r round(mae_single, 2)` | `r round(mae_multiple, 2)` | Lower MAE suggests multiple regression has less average error. |
-# | **Root Mean Squared Error (RMSE)** | `r round(rmse_single, 2)` | `r round(rmse_multiple, 2)` | Lower RMSE confirms multiple regression has less variability in errors. |
+| Metric | Single Regression | Multiple Regression | Conclusion |
+|------------------|------------------|------------------|------------------|
+| **R-squared** | `r paste0(round(r2_single, 3), " (", round(r2_single*100, 1), "%)")` | `r paste0(round(r2_multiple, 3), " (", round(r2_multiple*100, 1), "%)")` | Multiple regression explains more variability in sales. |
+| **Adjusted R-squared** | `r round(adj_r2_single, 3)` | `r round(adj_r2_multiple, 3)` | Adjusted R-squared accounts for model complexity; multiple regression is better. |
+| **Residual Standard Error** | `r round(rse_single, 2)` | `r round(rse_multiple, 2)` | Lower RSE indicates multiple regression has more precise predictions. |
+| **Mean Absolute Error (MAE)** | `r round(performance_comparison$MAE[1], 2)` | `r round(performance_comparison$MAE[2], 2)` | Lower MAE suggests multiple regression has less average error. |
+| **Root Mean Squared Error (RMSE)** | `r round(performance_comparison$RMSE[1], 2)` | `r round(performance_comparison$RMSE[2], 2)` | Lower RMSE confirms multiple regression has less variability in errors. |
 # :::
 # 
 # ## Key Advantages of Multiple Regression:
@@ -1075,7 +1079,7 @@ RMSE = c(rmse_single, rmse_multiple)
 # Fitting the Model
 # 
 # ```{r echo=T, eval=T, results='hide', message=FALSE, warning=FALSE,  cache=TRUE}
-# Fit a single regression model
+# # Fit a single regression model
 fit_single <- lm(sales ~ adv_spend, data = my_tech_data)
 summary(fit_single)
 # ```
@@ -1126,7 +1130,7 @@ predicted_sales
 # Fitting the Model:
 # 
 # ```{r echo=T, eval=T, results='hide', message=FALSE, warning=FALSE,  cache=TRUE}
-# Fit a multiple regression model
+# # Fit a multiple regression model
 fit_multiple <- lm(sales ~ adv_spend + prod_complex + support_rating, data = my_tech_data)
 summary(fit_multiple)
 # ```
@@ -1146,11 +1150,11 @@ summary(fit_multiple)
 # -   **Support Rating**: 4
 # 
 # ```{r echo=T, eval=T, results='hide', message=FALSE, warning=FALSE,  cache=TRUE}
-
-# Define new data for prediction
+# 
+# # Define new data for prediction
 new_data <- data.frame(
-adv_spend = 60,
-prod_complex = 7,
+adv_spend = 60, 
+prod_complex = 7, 
 support_rating = 4
 )
 
@@ -1177,114 +1181,265 @@ predicted_sales
 # :::::::
 # ::::::::
 # 
+# ## Prediction Example
+# 
+# <br>
+# 
+# <br>
+# 
+# <center>
+# **It is your turn!** 
+# <br>
+# <br>
+# **Using the code in the previous slides, generate a prediction for a new observation.**
+# </center>
+# 
+# <br>
+# 
+# <br>
+# 
+# 
+# 
 # # Comparing Prediction Performance {background-color="#cfb991"}
 # 
-# ## Evaluation Metrics:
+# ## Why Cross-Validation?
 # 
-# :::::::: {style="font-size: 70%;"}
-# ::::::: columns
-# :::: {.column width="50%"}
-# ::: nonincremental
-# ```{r echo=F, eval=T, results='hide', message=FALSE, warning=FALSE,  cache=TRUE}
-library(Metrics)
+# - Single train-set errors are optimistically biased.
+# - K-fold cross-validation (CV) estimates out-of-sample error by rotating held-out folds.
+# - Same folds must be used for all candidate models to enable fair comparison.
+# 
+# 
+# 
+# ## 10-Fold CV Setup
+# 
+# ```{r echo=T, eval=T, message=FALSE, warning=FALSE, cache=TRUE}
 
-# Calculate predictions for single and multiple regression models
-pred_single <- predict(fit_single, newdata = my_tech_data)
-pred_multiple <- predict(fit_multiple, newdata = my_tech_data)
-
-# Calculate actual sales
-actual_sales <- my_tech_data$sales
-
-# Compute MAE and RMSE for single regression model
-mae_single <- mae(actual_sales, pred_single)
-rmse_single <- rmse(actual_sales, pred_single)
-
-# Compute MAE and RMSE for multiple regression model
-mae_multiple <- mae(actual_sales, pred_multiple)
-rmse_multiple <- rmse(actual_sales, pred_multiple)
-
-# Combine results into a table
-performance_comparison <- data.frame(
-Model = c("Single Regression", "Multiple Regression"),
-MAE = c(mae_single, mae_multiple),
-RMSE = c(rmse_single, rmse_multiple)
-)
-performance_comparison
-# ```
-# 
-# Summary Table:
-# 
-# | Model               | MAE                        | RMSE                        |
-# |-------------------------------------|------------------|------------------|
-# | Single Regression   | `r round(mae_single, 2)`   | `r round(rmse_single, 2)`   |
-# | Multiple Regression | `r round(mae_multiple, 2)` | `r round(rmse_multiple, 2)` |
-# 
-# <br>
-# 
-# -   **Mean Absolute Error (MAE)**: Average absolute difference between predicted and actual sales.
-# -   **Root Mean Square Error (RMSE)**: Measures the standard deviation of the prediction errors.
-# :::
-# ::::
-# 
-# :::: {.column width="50%"}
-# ::: nonincremental
-# Key Takeaways:
-# 
-# 1.  **Multiple Regression Model**:
-# -   Typically achieves lower MAE and RMSE, indicating better prediction accuracy.
-# -   Leverages additional variables (e.g., product complexity and support rating) to improve performance.
-# 2.  **Single Regression Model**:
-# -   Provides simpler predictions but lacks the nuance of accounting for multiple influencing factors.
-# :::
-# ::::
-# :::::::
-# ::::::::
-# 
-# ## Visual Comparison of Errors
-# 
-# <br>
-# 
-# ```{r echo=F, eval=T, message=FALSE, warning=FALSE,  cache=TRUE, fig.align='center', fig.width=7.5, fig.height=5.5}
-
+library(dplyr)
+library(purrr)
+library(rsample)     # vfold_cv
+library(yardstick)   # rmse_vec, mae_vec
+library(tidyr)
 library(ggplot2)
 
-# Create a data frame for plotting
-error_data <- data.frame(
-Model = factor(rep(c("Single Regression", "Multiple Regression"), each = n), levels = c("Single Regression", "Multiple Regression")),
-Error = c(abs(actual_sales - pred_single), abs(actual_sales - pred_multiple))
+# --- Compatibility shim to avoid mae/rmse masking by yardstick ---
+mae  <- Metrics::mae
+rmse <- Metrics::rmse
+# -----------------------------------------------------------------
+
+set.seed(17300)
+
+# Define models exactly as in the lecture
+form_single   <- sales ~ adv_spend
+form_multiple <- sales ~ adv_spend + prod_complex + support_rating
+
+# Helper: count predictors (excludes intercept)
+n_pred <- function(frm) length(attr(terms(frm), "term.labels"))
+p_single   <- n_pred(form_single)    # = 1
+p_multiple <- n_pred(form_multiple)  # = 3
+
+# Helper: Adjusted R^2 computed on an assessment set
+adj_r2_vec <- function(truth, estimate, p){
+truth    <- as.numeric(truth)
+estimate <- as.numeric(estimate)
+n  <- length(truth)
+ss_res <- sum((truth - estimate)^2)
+ss_tot <- sum((truth - mean(truth))^2)
+r2 <- 1 - ss_res / ss_tot
+denom <- (n - p - 1)
+if (denom <= 0) return(NA_real_)  # guard for very small folds
+1 - (1 - r2) * ((n - 1) / denom)
+}
+
+# Create 10-fold CV splits on the full dataset
+folds <- vfold_cv(my_tech_data, v = 10)
+
+# Build per-fold metrics for both models using the SAME folds
+cv_results <- purrr::map2_dfr(folds$splits, folds$id, function(split, fold_id) {
+analysis_df <- analysis(split)
+assess_df   <- assessment(split)
+
+# Fit on analysis, predict on assessment
+fit_s  <- lm(form_single,   data = analysis_df)
+fit_m  <- lm(form_multiple, data = analysis_df)
+pred_s <- predict(fit_s, newdata = assess_df)
+pred_m <- predict(fit_m, newdata = assess_df)
+
+tibble::tibble(
+fold   = fold_id,
+Model  = c("Single Regression", "Multiple Regression"),
+RMSE   = c(rmse_vec(assess_df$sales, pred_s),
+   rmse_vec(assess_df$sales, pred_m)),
+MAE    = c(mae_vec(assess_df$sales, pred_s),
+   mae_vec(assess_df$sales, pred_m)),
+Adj_R2 = c(adj_r2_vec(assess_df$sales, pred_s, p_single),
+   adj_r2_vec(assess_df$sales, pred_m, p_multiple))
 )
+})
 
-# Plot absolute errors for both models
-ggplot(error_data, aes(x = Model, y = Error, fill = Model)) +
-geom_boxplot() +
-labs(title = "Comparison of Absolute Prediction Errors",
-x = "",
-y = "Absolute Error") +
-theme_minimal()  +
-theme(legend.position = "none")
-
+# Inspect per-fold results (optional)
+# cv_results
 # ```
 # 
-# <br>
+# ## Cross-Validated Metrics by Fold
 # 
-# # Summary {background-color="#cfb991"}
+# ```{r echo=F, eval=T, cache=TRUE, results='asis'}
+library(kableExtra)
+
+cv_tbl <- cv_results %>%
+arrange(Model, fold)
+
+# ---- Rename the 5th column to "Adj R2" (handles R2 / Adj_R2 / Adj.R2) ----
+cols <- names(cv_tbl)
+idx  <- which(cols %in% c("R2", "Adj_R2", "Adj.R2"))
+if (length(idx) == 1) cols[idx] <- "Adj R2"
+names(cv_tbl) <- cols
+# --------------------------------------------------------------------------
+
+knitr::kable(
+cv_tbl,
+caption = "10-fold CV metrics by model and fold",
+digits  = 4
+) %>%
+kable_styling(
+full_width = FALSE,
+bootstrap_options = c("striped", "condensed", "responsive"),
+font_size = 18
+) %>%
+scroll_box(
+height = "80vh",
+width  = "100%",
+fixed_thead = TRUE
+)
+# ```
 # 
-# ## Summary
+# ## Aggregate CV Performance
 # 
-# :::: nonincremental
-# ::: {style="font-size: 99%;"}
-# Main Takeaways from this lecture:
+# ```{r echo=F, eval=T, cache=TRUE}
+cv_summary <- cv_results %>%
+group_by(Model) %>%
+summarise(
+RMSE_mean = mean(RMSE), RMSE_sd = sd(RMSE),
+MAE_mean  = mean(MAE),  MAE_sd  = sd(MAE),
+Adj_R2_mean   = mean(Adj_R2),   Adj_R2_sd   = sd(Adj_R2),
+.groups = "drop"
+) %>%
+arrange(RMSE_mean)
+
+# cv_summary
+# ```
 # 
-# -   **Correlation vs. Causation**: Correlation does not imply causation.
+# ::: {style="font-size: 70%;"}
 # 
-# -   **Simple vs. Multiple Regression**: Multiple regression offers better insight by controlling for additional variables.
-# 
-# -   **Model Assumptions**: Meeting assumptions (linearity, normality, etc.) is essential for reliable inference and prediction.
-# 
-# -   **Supervised vs. Unsupervised Learning**: Supervised uses labeled data for prediction; unsupervised finds patterns in unlabeled data.
-# 
-# -   **Business Relevance**: Regression models help forecast key metrics (e.g., sales) and guide strategic decisions (e.g., advertising spend, product enhancements).
+| Metric  | Single Regression | Multiple Regression    | Conclusion   |
+| -------------------------------------- | ------------------------------------------ | ---------------------------- | ----------------------------------------------------- |
+| **CV RMSE (mean ± sd)** | `r sprintf("%.2f ± %.2f", cv_summary$RMSE_mean[cv_summary$Model=="Single Regression"], cv_summary$RMSE_sd[cv_summary$Model=="Single Regression"])` | `r sprintf("%.2f ± %.2f", cv_summary$RMSE_mean[cv_summary$Model=="Multiple Regression"], cv_summary$RMSE_sd[cv_summary$Model=="Multiple Regression"])` | Lower is better; prefer the model with the lower CV RMSE.    |
+| **CV MAE (mean ± sd)**  | `r sprintf("%.2f ± %.2f", cv_summary$MAE_mean[cv_summary$Model=="Single Regression"],  cv_summary$MAE_sd[cv_summary$Model=="Single Regression"])`  | `r sprintf("%.2f ± %.2f", cv_summary$MAE_mean[cv_summary$Model=="Multiple Regression"],  cv_summary$MAE_sd[cv_summary$Model=="Multiple Regression"])`  | Lower is better; confirms relative error profile.            |
+| **CV R² (mean ± sd)**   | `r sprintf("%.3f ± %.3f", cv_summary$Adj_R2_mean[cv_summary$Model=="Single Regression"],   cv_summary$Adj_R2_sd[cv_summary$Model=="Single Regression"])`   | `r sprintf("%.3f ± %.3f", cv_summary$Adj_R2_mean[cv_summary$Model=="Multiple Regression"],   cv_summary$Adj_R2_sd[cv_summary$Model=="Multiple Regression"])`   | Higher is better; assesses explained variance out-of-sample. |
+| 
+
 # :::
-# ::::
 # 
-# # Thank you! {background-color="#cfb991"}
+# ## Interpreting RMSE, MAE, and Adjusted R² 
+# 
+# ::: {style="font-size: 70%;"}
+# ::::: columns
+# ::: {.column width="50%"}
+# ### Error Metrics (lower is better)
+# 
+# **Root Mean Squared Error (RMSE)**  
+# $$
+# \text{RMSE}=\sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
+# $$
+# - Unit: same as the target variable (e.g., \$K in Sales).  
+# - Penalizes large errors quadratically → more sensitive to outliers.  
+# - Useful when large mistakes are disproportionately costly.
+# 
+# **Mean Absolute Error (MAE)**  
+# $$
+# \text{MAE}=\frac{1}{n}\sum_{i=1}^{n}\lvert y_i-\hat{y}_i\rvert
+# $$
+# - Unit: same as the target variable.  
+# - Linear penalty → more robust to outliers than RMSE.  
+# - Reflects typical absolute deviation; easy to explain to stakeholders.
+# :::
+# 
+# ::: {.column width="50%"}
+# ### Fit Metric (higher is better)
+# 
+# **Adjusted $R^2$**  
+# $$
+# \text{Adj }R^2=1-(1-R^2)\frac{n-1}{n-p-1}
+# $$
+# - Scale: $(-\infty,\,1]$. Can be negative if the model underperforms the mean.  
+# - Increases only when adding predictors improves fit beyond chance.  
+# - Unitless; reflects proportion of variance explained after penalizing complexity.  
+# - Not an error metric; two models with similar Adj $R^2$ can have different error magnitudes.
+# :::
+# :::::
+# 
+# :::
+# 
+# ## Practical guidance
+# 
+# - **Compare on the same data split/folds only.** Cross-validated means ± SD are preferred for model selection.  
+# - **MAE vs. RMSE:**  
+# - Use **MAE** when you want a robust, median-like error summary.  
+# - Use **RMSE** when large errors are especially bad or you want to emphasize variance.  
+# - **Adjusted $R^2$:**  
+# - Use to assess explanatory power with complexity control; do not use alone for forecasting accuracy.  
+# - **Communicate in business terms:** convert RMSE/MAE back to the target’s units to set expectations (e.g., “typical error ≈ \$3.2K per month”).
+
+# 
+# ## Visual Comparison (CV Errors)
+# 
+# ```{r echo=F, eval=T, fig.align='center', fig.width=7.5, fig.height=5.5, cache=TRUE}
+ggplot(cv_results, aes(x = Model, y = RMSE, fill = Model)) +
+geom_boxplot(alpha = 0.8) +
+labs(title = "10-fold CV: RMSE Distribution by Model",
+x = "", y = "RMSE (lower is better)") +
+theme_minimal() +
+theme(legend.position = "none")
+# ```
+# 
+# ## MAE distribution across folds
+# 
+# ```{r echo=F, eval=T, fig.align='center', fig.width=7.5, fig.height=5.5, cache=TRUE}
+ggplot(cv_results, aes(x = Model, y = MAE, fill = Model)) +
+geom_boxplot(alpha = 0.8) +
+labs(title = "10-fold CV: MAE Distribution by Model",
+x = "", y = "MAE (lower is better)") +
+theme_minimal() +
+theme(legend.position = "none")
+# ```
+# 
+# ## Takeaways
+# 
+# * Cross-validated RMSE/MAE provide unbiased out-of-sample comparisons; use these, not in-sample errors, for model selection.
+# 
+# * When additional predictors are relevant and well-specified, the multiple regression should exhibit lower CV error and higher CV $R^2$.
+# 
+# * Report mean ± sd across folds to communicate both central tendency and variability of predictive performance.
+# 
+
+
+# Summary {background-color="#cfb991"}
+
+## Summary
+
+:::: nonincremental
+::: {style="font-size: 99%;"}
+Main Takeaways from this lecture:
+
+-   **Correlation vs. Causation**: Correlation does not imply causation.
+
+-   **Simple vs. Multiple Regression**: Multiple regression offers better insight by controlling for additional variables.
+
+-   **Model Assumptions**: Meeting assumptions (linearity, normality, etc.) is essential for reliable inference and prediction.
+
+-   **Supervised vs. Unsupervised Learning**: Supervised uses labeled data for prediction; unsupervised finds patterns in unlabeled data.
+
+-   **Business Relevance**: Regression models help forecast key metrics (e.g., sales) and guide strategic decisions (e.g., advertising spend, product enhancements).
+:::
+::::
+
+# Thank you! {background-color="#cfb991"}

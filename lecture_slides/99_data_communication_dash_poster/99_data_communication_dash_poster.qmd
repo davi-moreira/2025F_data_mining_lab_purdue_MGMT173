@@ -505,7 +505,6 @@ nytexcess %>%
 -   [The Functional Art](http://www.thefunctionalart.com/)
 -   [COVID in the Financial Times](https://www.ft.com/content/a2901ce8-5eb7-4633-b89c-cbdf5b386938)
 
-
 # Dashboards {background-color="#cfb991"}
 
 ## Dashboards
@@ -636,7 +635,6 @@ knitr::include_graphics("figs/storyboard_template.png")
 
 -   [Shiny Dashboards](https://shiny.rstudio.com/gallery/)
 
-
 # Poster {background-color="#cfb991"}
 
 ## Why a Poster Presentation?
@@ -693,13 +691,15 @@ knitr::include_graphics("figs/storyboard_template.png")
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"} and [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}](figs/poster_template.png){width="70%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"} and [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}](figs/poster_template.png){width="50%"}
 
 </center>
 
 :::: aside
 ::: {style="font-size: 80%;"}
-*Thanks to [Professor Matthew A. Lanham](https://matthewalanham.com/){target="_blank"} for sharing the original version of this template. Checking his [personal webpage](https://matthewalanham.com/){target="_blank"} is highly recommended!*
+-   *Check my [personal webpage](https://davi-moreira.github.io/applied_projects.html){target="_blank"} to see other posters and projects I have mentored. It is highly recommended!*
+
+-   *Thanks to [Professor Matthew A. Lanham](https://matthewalanham.github.io/experiential-learning.html){target="_blank"} for sharing the original version of this template.*
 :::
 ::::
 
@@ -716,7 +716,7 @@ knitr::include_graphics("figs/storyboard_template.png")
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 :::
@@ -750,7 +750,7 @@ knitr::include_graphics("figs/storyboard_template.png")
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 :::
@@ -790,7 +790,7 @@ knitr::include_graphics("figs/storyboard_template.png")
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 :::
@@ -822,7 +822,7 @@ knitr::include_graphics("figs/storyboard_template.png")
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 :::
@@ -866,7 +866,7 @@ knitr::include_graphics("figs/storyboard_template.png")
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 :::
@@ -904,7 +904,7 @@ Show each step as a **section** in your poster or as **bullet points** under Met
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 
@@ -933,7 +933,7 @@ Show each step as a **section** in your poster or as **bullet points** under Met
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 :::
@@ -962,7 +962,7 @@ Show each step as a **section** in your poster or as **bullet points** under Met
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 :::
@@ -996,7 +996,7 @@ Show each step as a **section** in your poster or as **bullet points** under Met
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 :::
@@ -1024,7 +1024,7 @@ Show each step as a **section** in your poster or as **bullet points** under Met
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 :::
@@ -1053,7 +1053,7 @@ Show each step as a **section** in your poster or as **bullet points** under Met
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025S_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025S_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="90%"}
 
 </center>
 :::
@@ -1104,7 +1104,6 @@ Main Takeaways from this lecture:
 :::
 
 ::: {.column width="50%" style="text-align: center; justify-content: center; align-items: center;"}
-
 -   **Effective Dashboards**:
 
     -   Utilize tools like `flexdashboard` to create interactive layouts.

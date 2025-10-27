@@ -775,7 +775,7 @@
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#overview",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Overview",
-    "text": "Overview\n\n\n\n\nSix General Principals\n\nContext Matters\nVisualization Derives From Data\nLess is More: Separate Signal From Noise\nHierarchy Among Data\nBeauty Counts: Not All Data Are Equally Important\nTelling Your Story\n\n\n\n\nDashboads\nPosters"
+    "text": "Overview\n\n\n\nSix General Principals\n\nContext Matters\nVisualization Derives From Data\nLess is More: Separate Signal From Noise\nHierarchy Among Data\nBeauty Counts: Not All Data Are Equally Important\nTelling Your Story\n\n\n\n\nDashboads\nPosters"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#the-forest-and-the-trees-1",
@@ -880,7 +880,7 @@
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#check-potential-ideas-the-python-or-r-graph-galleries",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Check Potential Ideas! The Python or R Graph Galleries",
-    "text": "Check Potential Ideas! The Python or R Graph Galleries\n\n\n\n\n\n\n\n\nThe Python Graph Gallery\n\n\n\n\n\n\n\n\nThe R Graph Gallery"
+    "text": "Check Potential Ideas! The Python or R Graph Galleries\n\n\n\n\n\n\n\nThe Python Graph Gallery\n\n\n\n\n\n\n\n\nThe R Graph Gallery"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#eliminating-noise",
@@ -1202,49 +1202,49 @@
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#why-a-poster-presentation",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Why a Poster Presentation?",
-    "text": "Why a Poster Presentation?\n\n\n\n\n\n\n\n\n\n\nShowcases your work\nOrganizes your ideas and results\nIs visually appealing\nEncourages interactive discussion\nDemonstrates your mastery of predictive analytics concepts"
+    "text": "Why a Poster Presentation?\n\n\n\n\n\n\n\n\n\nShowcases your work\nOrganizes your ideas and results\nIs visually appealing\nEncourages interactive discussion\nDemonstrates your mastery of predictive analytics concepts"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#designing-a-predictive-analytics-poster-objectives",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#designing-a-predictive-analytics-poster-objectives",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Designing a Predictive Analytics Poster: Objectives",
-    "text": "Designing a Predictive Analytics Poster: Objectives\n\n\n\n\n\n\n\n\n\n\nCommunicate key findings and impact of your project\nHighlight the predictive approach, methodology, and novel insights\nHighlight the business implications and insights"
+    "text": "Designing a Predictive Analytics Poster: Objectives\n\n\n\n\n\n\n\n\n\nCommunicate key findings and impact of your project\nHighlight the predictive approach, methodology, and novel insights\nHighlight the business implications and insights"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#planning-your-poster-template-and-rubric",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#planning-your-poster-template-and-rubric",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Planning Your Poster: Template and Rubric",
-    "text": "Planning Your Poster: Template and Rubric\n\n\n\n\n\nTemplate and Rubric\n\n\n\n\n\n\n\nThanks to Professor Matthew A. Lanham for sharing the original version of this template. Checking his personal webpage is highly recommended!"
+    "text": "Planning Your Poster: Template and Rubric\n\n\n\n\n\nTemplate and Rubric\n\n\n\n\n\n\n\n\nCheck my personal webpage to see other posters and projects I have mentored. It is highly recommended!\nThanks to Professor Matthew A. Lanham for sharing the original version of this template."
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#planning-your-poster-visual-hierarchy",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#planning-your-poster-visual-hierarchy",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Planning Your Poster: Visual Hierarchy",
-    "text": "Planning Your Poster: Visual Hierarchy\n\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\n\nProvide a visually engaging, easy-to-navigate summary\nAlways in columns!\nHeadings: Large and bold to guide the reader\nColor & Contrast: Choose a simple palette that highlights main points\nFont Size: Text should be legible from ~3 feet away\nFlow: Logical reading order from top-left to bottom-right"
+    "text": "Planning Your Poster: Visual Hierarchy\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\n\nProvide a visually engaging, easy-to-navigate summary\nAlways in columns!\nHeadings: Large and bold to guide the reader\nColor & Contrast: Choose a simple palette that highlights main points\nFont Size: Text should be legible from ~3 feet away\nFlow: Logical reading order from top-left to bottom-right"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#planning-your-poster-layout-design",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#planning-your-poster-layout-design",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Planning Your Poster: Layout & Design",
-    "text": "Planning Your Poster: Layout & Design\n\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\n\nKeep It Simple\n\nLimit text and rely on figures, charts, and bullet points\nUse consistent color schemes, fonts, and alignment\nUse a QR Code to drive your audience to a dashboard or the project webpage\n\nUse of Space\n\nWhite space is your friend — avoid clutter\nGroup related sections in boxes or areas for clarity\n60% Graphics / 40% Text\n\nKey Text Guidelines\n\nTitle: ~85–100 pt\nHeadings/Subheadings: ~46–55 pt\nBody Text: ~34–38 pt\nCaptions: ~26–28 pt\nShould be readble from 3 feet away"
+    "text": "Planning Your Poster: Layout & Design\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\n\nKeep It Simple\n\nLimit text and rely on figures, charts, and bullet points\nUse consistent color schemes, fonts, and alignment\nUse a QR Code to drive your audience to a dashboard or the project webpage\n\nUse of Space\n\nWhite space is your friend — avoid clutter\nGroup related sections in boxes or areas for clarity\n60% Graphics / 40% Text\n\nKey Text Guidelines\n\nTitle: ~85–100 pt\nHeadings/Subheadings: ~46–55 pt\nBody Text: ~34–38 pt\nCaptions: ~26–28 pt\nShould be readble from 3 feet away"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#planning-your-poster-organizing-your-content",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#planning-your-poster-organizing-your-content",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Planning Your Poster: Organizing Your Content",
-    "text": "Planning Your Poster: Organizing Your Content\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\n\nTitle & Authors: Clear, concise, and visible\nAbstract/Introduction: One clear and concise paragraph to show why your problem is important and what are the main results.\nBusiness Problem: What is your project goal?\nAnalytics Problem Framing: What you aim to predict or explain and why\nResearch Question: Summarise your project in a question you will answer\nData and EDA: Key variables, data collection.\nMethodology: Modeling approach focusing on the response variable.\nModel Building and Evaluation: Model results clear and appropriately evaluated\nBusiness Implication: Business validation of model/solution demonstrated. Main findings, performance metrics, interpretation\nConclusion & Future Work: Wrap-up and potential next steps\nAcknowledgments & References: Recognize collaborators and sources"
+    "text": "Planning Your Poster: Organizing Your Content\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\n\nTitle & Authors: Clear, concise, and visible\nAbstract/Introduction: One clear and concise paragraph to show why your problem is important and what are the main results.\nBusiness Problem: What is your project goal?\nAnalytics Problem Framing: What you aim to predict or explain and why\nResearch Question: Summarise your project in a question you will answer\nData and EDA: Key variables, data collection.\nMethodology: Modeling approach focusing on the response variable.\nModel Building and Evaluation: Model results clear and appropriately evaluated\nBusiness Implication: Business validation of model/solution demonstrated. Main findings, performance metrics, interpretation\nConclusion & Future Work: Wrap-up and potential next steps\nAcknowledgments & References: Recognize collaborators and sources"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#designing-for-predictive-analytics",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#designing-for-predictive-analytics",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Designing for Predictive Analytics",
-    "text": "Designing for Predictive Analytics\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\n\nEmphasize the Predictive Component\n\nModel Choice: Clearly state if you used linear regression, random forests, neural networks, etc.\nMetrics: Include accuracy, RMSE, AUC, or other relevant metrics\nModel Interpretation: Highlight key features or coefficients that drove the predictions\n\nData Visualization Tips\n\nUse labeled graphs (e.g., bar charts, scatter plots, confusion matrices)\nShow before-and-after comparisons if you performed feature engineering\nExplain the importance of training vs. testing sets (or cross-validation)"
+    "text": "Designing for Predictive Analytics\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\n\nEmphasize the Predictive Component\n\nModel Choice: Clearly state if you used linear regression, random forests, neural networks, etc.\nMetrics: Include accuracy, RMSE, AUC, or other relevant metrics\nModel Interpretation: Highlight key features or coefficients that drove the predictions\n\nData Visualization Tips\n\nUse labeled graphs (e.g., bar charts, scatter plots, confusion matrices)\nShow before-and-after comparisons if you performed feature engineering\nExplain the importance of training vs. testing sets (or cross-validation)"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#crafting-a-clear-narrative",
@@ -1265,7 +1265,7 @@
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#crafting-a-clear-narrative-2",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Crafting a Clear Narrative",
-    "text": "Crafting a Clear Narrative\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\nIntroduction & Problem Statement\n\nPresent the real-world problem or question\nBriefly mention why it matters (e.g., business impact, social relevance)\n\nThe “So What?” Factor\n\nEmphasize the value of your predictive findings\nIllustrate how stakeholders can use predictions or insights"
+    "text": "Crafting a Clear Narrative\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\nIntroduction & Problem Statement\n\nPresent the real-world problem or question\nBriefly mention why it matters (e.g., business impact, social relevance)\n\nThe “So What?” Factor\n\nEmphasize the value of your predictive findings\nIllustrate how stakeholders can use predictions or insights"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#research-design-flow",
@@ -1279,42 +1279,42 @@
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#effective-figures-and-tables",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Effective Figures and Tables",
-    "text": "Effective Figures and Tables\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\nCharts and Graphs\n\nLabel axes, include legends only if necessary\nHighlight the data that supports your main argument\nProvide short, descriptive captions beneath each figure\n\nTables\n\nKeep tables simple, emphasize key results\nConsider whether a chart might be more impactful than a table"
+    "text": "Effective Figures and Tables\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\nCharts and Graphs\n\nLabel axes, include legends only if necessary\nHighlight the data that supports your main argument\nProvide short, descriptive captions beneath each figure\n\nTables\n\nKeep tables simple, emphasize key results\nConsider whether a chart might be more impactful than a table"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#results-interpretation",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#results-interpretation",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Results & Interpretation",
-    "text": "Results & Interpretation\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\n\n\nShowcase Predictive Performance\n\nProvide confusion matrices for classification models\nCompare model performance with baseline or benchmark\nDiscuss practical implications of the performance metrics\n\nCritical Thinking\n\nExplain why the model performed well or poorly\nReflect on limitations (e.g., small dataset, missing variables, etc.)\nSuggest ways to improve performance or replicate your findings"
+    "text": "Results & Interpretation\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\n\n\nShowcase Predictive Performance\n\nProvide confusion matrices for classification models\nCompare model performance with baseline or benchmark\nDiscuss practical implications of the performance metrics\n\nCritical Thinking\n\nExplain why the model performed well or poorly\nReflect on limitations (e.g., small dataset, missing variables, etc.)\nSuggest ways to improve performance or replicate your findings"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#conclusion-future-work",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#conclusion-future-work",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Conclusion & Future Work",
-    "text": "Conclusion & Future Work\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\nMain Takeaways\n\nRecap key predictions and findings in plain language\nEmphasize the impact and potential applications\n\nNext Steps\n\nPossible avenues for further research or new data\nEncouraging further validation, deployment, or real-world testing"
+    "text": "Conclusion & Future Work\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\nMain Takeaways\n\nRecap key predictions and findings in plain language\nEmphasize the impact and potential applications\n\nNext Steps\n\nPossible avenues for further research or new data\nEncouraging further validation, deployment, or real-world testing"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#final-touches",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#final-touches",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Final Touches",
-    "text": "Final Touches\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\nAcknowledgments & References\n\nRecognize supporting faculty, funding sources, and collaborators\nCite any references (including data sources and libraries) in a consistent format\n\nProofreading & Practice\nSpell-check all text, verify data accuracy, ensure images are clear\nPractice explaining your poster to a non-expert"
+    "text": "Final Touches\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\nAcknowledgments & References\n\nRecognize supporting faculty, funding sources, and collaborators\nCite any references (including data sources and libraries) in a consistent format\n\nProofreading & Practice\nSpell-check all text, verify data accuracy, ensure images are clear\nPractice explaining your poster to a non-expert"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#presenting-your-poster",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#presenting-your-poster",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Presenting your Poster",
-    "text": "Presenting your Poster\n\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\nTips for Presenting Well\n\nArrive early to set up\nStay close and off to the side\nPrepare a 30-second, 90-second, and 2-minute elevator pitches using your poster as a visual guide\nInvite questions to spark in-depth discussions\nActively ask questions to your audience\nUse your hands to direct your listener to your poster\nPrevent you or someone else blocking the poster\nFollow the dress code!"
+    "text": "Presenting your Poster\n\n\n\n\n\n\n\nTemplate, Rubric, and Video\n\n\n\n\n\nTips for Presenting Well\n\nArrive early to set up\nStay close and off to the side\nPrepare a 30-second, 90-second, and 2-minute elevator pitches using your poster as a visual guide\nInvite questions to spark in-depth discussions\nActively ask questions to your audience\nUse your hands to direct your listener to your poster\nPrevent you or someone else blocking the poster\nFollow the dress code!"
   },
   {
     "objectID": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#summary-1",
     "href": "lecture_slides/99_data_communication_dash_poster/99_data_communication_dash_poster.html#summary-1",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Summary",
-    "text": "Summary\n\n\nMain Takeaways from this lecture:\n\n\n\nData Communication Principles:\n\nContext matters: Tailor your analysis to the audience and goal.\nFocus on the story: Highlight insights, not the process.\nBeauty and clarity: Simplify visuals, use appropriate colors, and remove unnecessary elements.\n\nVisualization Best Practices:\n\nUse graphs instead of tables where possible.\nAvoid misleading scales and excessive dimensions.\nPrioritize hierarchy and emphasize key data points.\n\n\n\n\nEffective Dashboards:\n\nUtilize tools like flexdashboard to create interactive layouts.\nStructure information logically, adapting to mobile and web use.\nStoryboard layouts help narrate data insights step-by-step.\n\nPoster:\n\nSimplicity and clarity win over clutter\nEmphasize the predictive analytics approach and metrics\nEnsure visual impact and logical flow\nPractice delivering a concise overview of your work\n\nFinal Message:\n\nLess is more. Reduce complexity to communicate data effectively.\nAlways keep your audience’s decision-making needs at the forefront."
+    "text": "Summary\n\nMain Takeaways from this lecture:\n\n\n\nData Communication Principles:\n\nContext matters: Tailor your analysis to the audience and goal.\nFocus on the story: Highlight insights, not the process.\nBeauty and clarity: Simplify visuals, use appropriate colors, and remove unnecessary elements.\n\nVisualization Best Practices:\n\nUse graphs instead of tables where possible.\nAvoid misleading scales and excessive dimensions.\nPrioritize hierarchy and emphasize key data points.\n\n\n\n\nEffective Dashboards:\n\nUtilize tools like flexdashboard to create interactive layouts.\nStructure information logically, adapting to mobile and web use.\nStoryboard layouts help narrate data insights step-by-step.\n\nPoster:\n\nSimplicity and clarity win over clutter\nEmphasize the predictive analytics approach and metrics\nEnsure visual impact and logical flow\nPractice delivering a concise overview of your work\n\nFinal Message:\n\nLess is more. Reduce complexity to communicate data effectively.\nAlways keep your audience’s decision-making needs at the forefront."
   },
   {
     "objectID": "lecture_slides/06_supervised_learning_regression/06_supervised_learning_regression.html#prediction-example-2",

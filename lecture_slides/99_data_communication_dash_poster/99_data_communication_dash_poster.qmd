@@ -691,7 +691,7 @@ knitr::include_graphics("figs/storyboard_template.png")
 
 <center>
 
-![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"} and [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}](figs/poster_template.png){width="50%"}
+![[Template](https://github.com/davi-moreira/2025F_data_mining_lab_purdue_MGMT173/raw/refs/heads/main/docs/lecture_slides/99_data_communication_dash_poster/2025F_mgmt474_poster_template.pptx.zip){target="_blank"}, [Rubric](https://www.purdue.edu/undergrad-research/conferences/spring/Rubric_Poster.pdf){target="_blank"}, and [Video](https://www.youtube.com/watch?v=ReN-QcVTZ1o){target="_blank"}](figs/poster_template.png){width="50%"}
 
 </center>
 

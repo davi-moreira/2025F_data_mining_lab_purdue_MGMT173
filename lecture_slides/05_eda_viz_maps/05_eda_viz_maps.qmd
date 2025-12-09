@@ -1,6 +1,6 @@
 ---
 title: "<span style = 'font-size: 100%;'> MGMT 17300: Data Mining Lab </span>"
-subtitle: "<span style = 'font-size: 150%;'>Exploratory Data Analysis with Vizualization and Maps</span>"
+subtitle: "<span style = 'font-size: 150%;'>Exploratory Data Analysis with Visualization and Maps</span>"
 author: "Professor: Davi Moreira"
 # date: "2024-08-01"
 date-format: "MMMM DD, YYYY"

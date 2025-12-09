@@ -1,6 +1,6 @@
 ---
 title: "<span style = 'font-size: 100%;'> MGMT 17300: Data Mining Lab </span>"
-subtitle: "<span style = 'font-size: 150%;'> Syllabus, Logistics,  and  Introduction to R and Rstudio </span>"
+subtitle: "<span style = 'font-size: 150%;'> Syllabus, Logistics,  and  Introduction to R and RStudio </span>"
 author: "Professor: Davi Moreira"
 #date: "2024-08-01"
 date-format: "MMMM DD, YYYY"
@@ -22,7 +22,6 @@ format:
 html-math-method:
   method: mathjax
   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-    
 ---
 
 # Welcome! {background-color="#cfb991"}
@@ -39,11 +38,9 @@ html-math-method:
 :::
 
 ::: {.column width="50%" style="text-align: center; justify-content: center; align-items: center;"}
-
 -   Why R and RStudio?
 -   Version Control
 -   Projects
-
 :::
 :::::
 ::::::
@@ -110,15 +107,13 @@ knitr::include_graphics("figs/carnaval_olinda.jpg")
 
 <br>
 
-<center>
-**What do you expect to gain from this Data Mining Lab course?**
-</center>
+<center>**What do you expect to gain from this Data Mining Lab course?**</center>
 
 <br>
 
 -   It is your turn! - 10 minutes
 
--   Present yourself to your left/right colleague and ask: 
+-   Present yourself to your left/right colleague and ask:
 
 -   Collect her/his answer and submit your first Participation Assignment!
 
@@ -126,47 +121,39 @@ knitr::include_graphics("figs/carnaval_olinda.jpg")
 
 ## Course Overview and Logistics
 
-::: {style="font-size: 80%;"}
-
-:::: {.columns}
+:::::: {style="font-size: 80%;"}
+::::: columns
 ::: {.column width="50%"}
-
-- **Course Info**:
-  - Brightspace - Official.
-  - [Course Webpage - Supplementary.](https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/){target="_blank"}
-
-- [**Syllabus**](https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/){target="_blank"}  
-  - **Class Times & Location:** check the course syllabus.  
-  - **Office Hours:** check the course syllabus for group and individual appointments.
-
-- [**Schedule and Materials**](https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/schedule.html){target="_blank"}:
-  - Podcast (before class)  
-  - Lecture Slides (before/during class)  
-  - Lecture Video (before/during class)  
-  - scripts/labs (during/after class)  
-  - Supplementary Material (after class)
-
+-   **Course Info**:
+    -   Brightspace - Official.
+    -   [Course Webpage - Supplementary.](https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/){target="_blank"}
+-   [**Syllabus**](https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/){target="_blank"}
+    -   **Class Times & Location:** check the course syllabus.\
+    -   **Office Hours:** check the course syllabus for group and individual appointments.
+-   [**Schedule and Materials**](https://davi-moreira.github.io/2025F_data_mining_lab_purdue_MGMT173/schedule.html){target="_blank"}:
+    -   Podcast (before class)\
+    -   Lecture Slides (before/during class)\
+    -   Lecture Video (before/during class)\
+    -   scripts/labs (during/after class)\
+    -   Supplementary Material (after class)
 :::
 
 ::: {.column width="50%"}
-
-- **Course Tracks**
-  - Standard Track  
-  - Poster Track (bonus)
-
-- **Assessments**
-  - Attendance  
-  - Participation  
-  - Quizzes  
-  - Homework  
-  - Midterm Exams
-  - Final Project  
-
+-   **Course Tracks**
+    -   Standard Track\
+    -   Poster Track (bonus)
+-   **Assessments**
+    -   Attendance\
+    -   Participation\
+    -   Quizzes\
+    -   Homework\
+    -   Midterm Exams
+    -   Final Project
 :::
-::::
+:::::
+::::::
 
-::: 
-
+```{=html}
 <!---
 ## Course Objectives
 
@@ -410,12 +397,15 @@ Your **final course percentage** is calculated from the weighted percentages bel
 :::
 :::
 --->
+```
 
 # Motivation {background-color="#cfb991"}
 
+```{=html}
 <!---
 # What motivated you to enroll in the Data Mining Lab course? {background-color="#cfb991"}
 --->
+```
 
 <!--- <br> <br> --->
 
@@ -445,6 +435,7 @@ W. Edwards Deming
 :::
 :::::
 
+```{=html}
 <!---
 # Big Data, Data Science, and Data Mining {background-color="#cfb991"}
 
@@ -497,9 +488,11 @@ In observational studies, no attempt is made to control or influence the variabl
 
 An experimental study involves the active manipulation of one or more independent variables to observe their effect on a dependent variable, while controlling for confounding factors. Participants are typically randomly assigned to groups (e.g., treatment vs. control), and outcomes are compared to determine causal relationships. This design provides strong evidence for cause-and-effect due to the controlled environment and random assignment.
 --->
+```
 
 <!---The researcher actively manipulates one or more independent (treatment) variables to observe the effect on a dependent (outcome) variable, while controlling for other potential confounding factors. This type of study aims to establish causal relationships between variables. In an experimental study, subjects are usually randomly assigned to different groups or conditions (e.g., treatment vs. control), and the outcomes are compared to determine the impact of the manipulated variable. The strength of experimental studies lies in their ability to provide strong evidence for cause-and-effect relationships due to the controlled environment and random assignment.--->
 
+````{=html}
 <!---
 
 > The largest experimental study ever conducted is believed to be the [1954 Public Health Service experiment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1114166/) for the Salk polio vaccine. Nearly two million U.S. children (grades 1 through 3) were selected.
@@ -603,14 +596,13 @@ knitr::include_graphics("figs/pie-vs-bar.png")
 <br>
 
 --->
+````
 
 ## Motivation: from a opinion and raw data...
 
 <br>
 
-
 ::: {style="overflow-y: auto; max-height: 400px; border: 1px solid #ccc; padding: 10px;"}
-
 ```{r}
 # Load the gapminder package
 library(gapminder)
@@ -621,7 +613,6 @@ library(gapminder)
 knitr::kable(gapminder, format = "html", table.attr = "style='width:70%'")
 ```
 :::
-
 
 ## Motivation: to...
 
@@ -658,7 +649,6 @@ animate(p, renderer = gifski_renderer())
 
 ```
 
-
 ## Data Science and Data Mining
 
 <center>
@@ -679,28 +669,24 @@ animate(p, renderer = gifski_renderer())
 
 ## Why R?
 
-::: {.columns}
+::::: columns
 ::: {.column width="50%"}
-
 <center>[![R](figs/R_logo.png){width="200px"}](https://cran.r-project.org/){target="_blank"}</center>
-
 :::
-::: {.column width="50%"}
 
+::: {.column width="50%"}
 -   Open-source programming language
 -   Built by statisticians (both a good and bad thing)
 -   Large community
-
 :::
-:::
-
+:::::
 
 ## Community
 
 -   [R-Bloggers](https://www.r-bloggers.com/)
 -   [R-Ladies Global](https://rladies.org/)
 -   [TidyTuesday](https://github.com/rfordatascience/tidytuesday) <!---- [R-Ladies SP](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/)
-        - [Minas Programam](https://minasprogramam.com/quem-faz/)--->
+            - [Minas Programam](https://minasprogramam.com/quem-faz/)--->
 
 ## Why RStudio?
 
@@ -714,6 +700,7 @@ animate(p, renderer = gifski_renderer())
 
 </center>
 
+```{=html}
 <!--- 
 # Version Control {background-color="#cfb991"}
 
@@ -767,63 +754,53 @@ animate(p, renderer = gifski_renderer())
 <center>[![GitHadley](figs/hadley-git.png){width="70%"}](https://github.com/hadley/){target="_blank"}</center>
 
 --->
+```
 
 # Project Management {background-color="#cfb991"}
 
 ## Taming chaos
 
-::: columns
-::: {.column width="50%"}
-
+:::::::: columns
+:::::: {.column width="50%"}
 In the data science workflow, there are two sorts of **surprises** and cognitive stress:
 
-1. Analytical (often good)
-2. Infrastructural (almost always bad)
+1.  Analytical (often good)
+2.  Infrastructural (almost always bad)
 
-:::{.fragment}
-
+::: fragment
 **Analytical surprise** is when you learn something from or about the data.
 
 **Infrastructural surprise** is when you discover that:
-
 :::
 
-:::{.fragment}
-
-- You can't find what you did before.
-- The analysis code breaks.
-- The report doesn't compile.
-- The collaborator can't run your code.
+::: fragment
+-   You can't find what you did before.
+-   The analysis code breaks.
+-   The report doesn't compile.
+-   The collaborator can't run your code.
 :::
 
-:::{.fragment}
-
+::: fragment
 Good project management lets you focus on the right kind of stress.
-
 :::
-
-:::
+::::::
 
 ::: {.column width="50%" layout-valign="center"}
-
 ![](figs/pippi-langstrumpf.gif){width="700"}
 :::
-:::
+::::::::
 
 ## Keeping Future-you happy
 
 <center>![](figs/michaeljfox-1.jpg){width="180"}![](figs/michaeljfox-2.jpg){width="200"}![](figs/michaeljfox-3.jpg){width="200"}</center>
 
-
-- It’s often tempting to set up a project assuming that you will be the only person working on it, e.g. as homework.
-- That’s almost never true.
-- Coauthors and collaborators happen to the best of us.
-- Even if not, there's someone else who you always have to keep happy: Future-you.
-- Future-you is really the one you organize your projects for.
-- Most importantly, they are who will enjoy the fruits of your data science labor, or have to fight back your chaos.
-- So, be kind to Future-you. Establish a good workflow. You'll thank yourself later.
-
-
+-   It’s often tempting to set up a project assuming that you will be the only person working on it, e.g. as homework.
+-   That’s almost never true.
+-   Coauthors and collaborators happen to the best of us.
+-   Even if not, there's someone else who you always have to keep happy: Future-you.
+-   Future-you is really the one you organize your projects for.
+-   Most importantly, they are who will enjoy the fruits of your data science labor, or have to fight back your chaos.
+-   So, be kind to Future-you. Establish a good workflow. You'll thank yourself later.
 
 ## Project setup
 
@@ -831,63 +808,59 @@ You should **always** think in terms of projects.
 
 A project is a **self-contained unit of data science work** that can be
 
-- Shared
-- Recreated by others
-- Packaged
-- Dumped
+-   Shared
+-   Recreated by others
+-   Packaged
+-   Dumped
 
 . . .
 
 A project contains
 
-- Content, e.g., raw data, processed data, scripts, functions, documents and other output
+-   Content, e.g., raw data, processed data, scripts, functions, documents and other output
 
-- Metadata, e.g., information about tools for running it (required libraries, compilers), version history
+-   Metadata, e.g., information about tools for running it (required libraries, compilers), version history
 
 . . .
 
 For R projects for example:
 
-- Projects are folders/directories.
-- Metadata is the [RStudio project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) (`.Rproj`) files (perhaps augmented with the output of [renv](https://rstudio.github.io/renv/articles/renv.html) for dependency management) and `.git`.
+-   Projects are folders/directories.
+-   Metadata is the [RStudio project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) (`.Rproj`) files (perhaps augmented with the output of [renv](https://rstudio.github.io/renv/articles/renv.html) for dependency management) and `.git`.
 
 ## Setup: the folder structure
 
-::: columns
-::: {.column width="50%"}
-
+:::::: columns
+:::: {.column width="50%"}
 **Structuring your working directory**
 
-- One folder contains everything inside it.
-- Directories keep things separate that should be separated.
-- You decide on the fundamental structure. The project decides on the details.
+-   One folder contains everything inside it.
+-   Directories keep things separate that should be separated.
+-   You decide on the fundamental structure. The project decides on the details.
 
-:::{.fragment}
-
+::: fragment
 **Further thoughts**
 
-- Ideally, your project folder can be relocated without problem.
-- Keep input separate from output. Definitely separate raw from processed data!
-- Structure should be capable of evolution. More data, cases, models, output formats shouldn't be a problem. 
-
+-   Ideally, your project folder can be relocated without problem.
+-   Keep input separate from output. Definitely separate raw from processed data!
+-   Structure should be capable of evolution. More data, cases, models, output formats shouldn't be a problem.
 :::
-:::
+::::
 
 ::: {.column width="50%"}
-
 <center>![](figs/rproject-setup.png){width="300"}</center>
+
 <br>
+
 <center>![](figs/r-project-setup-2.png){width="300"}</center>
+
 <br>
-<center>
-[Chris/r-bloggers.com](https://www.r-bloggers.com/2018/08/structuring-r-projects/)
-</center>
 
-::: 
+<center>[Chris/r-bloggers.com](https://www.r-bloggers.com/2018/08/structuring-r-projects/)</center>
 :::
+::::::
 
-
-
+````{=html}
 <!---
 
 ## Setup: the paths
@@ -1050,8 +1023,9 @@ dat <- read_csv("dat.csv")
 :::
 
 --->
+````
 
-## Project Approach 
+## Project Approach
 
 <center>
 
@@ -1081,7 +1055,7 @@ dat <- read_csv("dat.csv")
 
 ## First step: install them!
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <!---::: r-fit-text--->
 
@@ -1089,37 +1063,30 @@ Good news: It's free!
 
 <br>
 
-- Go to [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/) 
+-   Go to <https://posit.co/download/rstudio-desktop/>
 
-- Follow the instructions:
+-   Follow the instructions:
 
-    - Install `R`
-    - Install `RStudio`
-
-::: 
+    -   Install `R`
+    -   Install `RStudio`
+:::
 
 ::: {.column width="50%"}
-
 <center>![](figs/brent-rambo.gif){width="600"}</center>
-
 :::
-:::
-
-
+:::::
 
 # Summary {background-color="#cfb991"}
 
 ## Summary
 
 ::: nonincremental
-
 -   **Why use R?**
     -   Open-source programming language
     -   Built by statisticians, with a large community
     -   Integrated environment with RStudio
     -   Importance of managing projects and versioning with Git and GitHub
     -   Useful to publish with Quarto
-
 :::
 
 ## References
@@ -1130,7 +1097,6 @@ Good news: It's free!
 -   [R and version control for the solo data analyst](https://stackoverflow.com/questions/2712421/r-and-version-control-for-the-solo-data-analyst){target="_blank"}
 -   [Workflow: Projects](https://r4ds.hadley.nz/workflow-scripts.html){target="_blank"}
 -   [Project-oriented workflow](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/){target="_blank"}
-- [Quarto](https://quarto.org/docs/computations/r.html){target="_blank"}
-
+-   [Quarto](https://quarto.org/docs/computations/r.html){target="_blank"}
 
 # Thank you! {background-color="#cfb991"}

@@ -598,7 +598,7 @@ knitr::include_graphics("figs/pie-vs-bar.png")
 --->
 ````
 
-## Motivation: from a opinion and raw data...
+## Motivation: from an opinion and raw data...
 
 <br>
 
